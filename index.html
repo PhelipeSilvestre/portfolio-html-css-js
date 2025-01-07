@@ -14,7 +14,7 @@
     />
     <!-- ===== Style Switcher =====  -->
     <link rel="stylesheet" href="css/style-switcher.css" />
-    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled />
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1"  />
     <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled />
     <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled />
     <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled />
@@ -34,19 +34,19 @@
         </div>
         <ul class="nav">
           <li>
-            <a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-user"></i> About</a>
+            <a href="#about"><i class="fa fa-user"></i> About</a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-list"></i> Services</a>
+            <a href="#services"><i class="fa fa-list"></i> Services</a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-briefcase"></i>Portfólio</a>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfólio</a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-comments"></i>Contact</a>
+            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
           </li>
         </ul>
       </div>
@@ -54,7 +54,7 @@
       <!-- ===== Main Content Start =====  -->
       <div class="main-content">
         <!-- ===== Home Section Start =====  -->
-        <section class="home section">
+        <section class="home section" id="home">
           <div class="container">
             <div class="row">
               <div class="home-info padd-15">
@@ -83,7 +83,7 @@
         </section>
         <!-- ===== Home Section End =====  -->
         <!-- ===== About Section Start =====  -->
-        <section class="about section">
+        <section class="about section" id="about">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -273,7 +273,7 @@
         </section>
         <!-- ===== Abount Section End =====  -->
         <!-- ===== Services Section Start ===== -->
-        <section class="service section">
+        <section class="service section" id="services">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -376,7 +376,7 @@
         </section>
         <!-- ===== Services Section End ===== -->
         <!-- ===== Portfolio Section Start ===== -->
-        <section class="portfolio section">
+        <section class="portfolio section" id="portfolio">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -448,7 +448,7 @@
         </section>
         <!-- ===== Portfolio Section End ===== -->
         <!-- ===== Contact Section Start ===== -->
-        <section class="contact section">
+        <section class="contact section" id="contact">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -562,7 +562,7 @@
          <!-- ===== Style Switcher Start =====  -->
     <div class="style-switcher">
       <div class="style-switcher-toggler s-icon">
-        <i class="fas fa-cog fa-skin"></i>
+        <i class="fas fa-cog fa-spin"></i>
       </div>
       <div class="day-night s-icon">
         <i class="fas fa-moon"></i>
@@ -579,5 +579,6 @@
     <!-- ===== Style Switcher End =====  -->
     <!-- ===== JS Files =====  -->
     <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
   </body>
 </html>
