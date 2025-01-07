@@ -388,7 +388,7 @@ h3.hello span {
 .about .about-content .experience {
   flex: 0 0 50%;
   max-width: 50%;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 .about .about-content h3.title {
   font-size: 24px;
