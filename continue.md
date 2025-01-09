@@ -1,8 +1,10 @@
 ### continue in min:
 
-3:00:00
-
+Part 1 - Finish
 https://www.youtube.com/watch?v=zJE-ze4TfXc&t=1s
+
+Part 2 -
+https://www.youtube.com/watch?v=DmiVBbNLzo8
 
 ## Next feature
 
