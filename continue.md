@@ -15,3 +15,4 @@ https://www.youtube.com/watch?v=DmiVBbNLzo8
 - Adicionar projetos
 - Adicionar Certificações
 - Adicionar Rodapé
+- adicionar foto de perfil arredondada no mobile
