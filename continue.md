@@ -3,7 +3,7 @@
 Part 1 - Finish
 https://www.youtube.com/watch?v=zJE-ze4TfXc&t=1s
 
-Part 2 -
+Part 2 - 20:00
 https://www.youtube.com/watch?v=DmiVBbNLzo8
 
 ## Next feature
