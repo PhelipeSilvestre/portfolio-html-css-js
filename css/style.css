@@ -342,6 +342,9 @@ h3.hello span {
   margin-right: 15px;
   margin-top: 10px;
 }
+.about .about-content .skills .skill-description {
+  margin-bottom: 40px;
+}
 .about .about-content .skills {
   flex: 0 0 40%;
   max-width: 40%;
@@ -389,6 +392,15 @@ h3.hello span {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 10%;
+}
+.about .about-content .experience a {
+  color: var(--text-black-900);
+}
+.about .about-content .experience .icons-tec {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  margin-top: 20px;
 }
 .about .about-content h3.title {
   font-size: 24px;
