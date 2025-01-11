@@ -393,10 +393,12 @@ h3.hello span {
   max-width: 50%;
   margin-top: 10%;
 }
-.about .about-content .experience a {
+.about .about-content .experience a,
+.about .about-content .education a {
   color: var(--text-black-900);
 }
-.about .about-content .experience .icons-tec {
+.about .about-content .experience .icons-tec,
+.about .about-content .education .icons-tec {
   width: 25px;
   height: 25px;
   border-radius: 20px;
