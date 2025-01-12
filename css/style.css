@@ -228,6 +228,22 @@ ul {
 .aside .nav li a i {
   margin-right: 15px;
 }
+
+.aside .aside-footer {
+  position: absolute;
+  bottom: 15%;
+}
+.aside .aside-footer a {
+  margin: 0 10px;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.aside .aside-footer .social-icone {
+  margin: 15px;
+  font-size: 30px;
+  color: var(--text-black-900);
+}
 /*  Home  */
 .home {
   min-height: 100vh;
@@ -291,6 +307,7 @@ h3.hello span {
   border-radius: 5px;
   height: 400px;
 }
+
 /* About */
 .about .about-content {
   flex: 0 0 100%;
