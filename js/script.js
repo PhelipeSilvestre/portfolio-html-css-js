@@ -22,7 +22,21 @@ for (i = 0; i < totalNavList; i++) {
       navList[j].querySelector("a").classList.remove("active");
     }
     this.classList.add("active");
+    asideSectionTogglerBtn();
   });
+}
+
+const navTogglerBtn = document.querySelector(".nav-toggler"),
+  aside = document.querySelector(".aside");
+navTogglerBtn.addEventListener("click", () => {
+  asideSectionTogglerBtn();
+});
+function asideSectionTogglerBtn() {
+  aside.classList.toggle("open");
+  navTogglerBtn.classList.toggle("open");
+  for (let i = 0; i < totalNavList; i++) {
+    navList[i].querySelector("a").classList.toggle("open");
+  }
 }
 
 // Contact Form

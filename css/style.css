@@ -40,6 +40,7 @@ ul {
   padding: 0 30px;
   opacity: 1;
 }
+
 .hidden {
   display: none !important;
 }
@@ -628,6 +629,13 @@ h3.hello span {
 @media (max-width: 1199px) {
   .aside {
     left: -270px;
+  }
+  .aside.open {
+    left: 0;
+  }
+  .aside .nav-toggler {
+    display: flex;
+    left: 30px;
   }
   .main-content {
     padding-left: 0;
