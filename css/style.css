@@ -132,9 +132,13 @@ ul {
 }
 .aside .logo {
   position: absolute;
-  top: 50px;
-  font-size: 30px;
-  text-transform: capitalize;
+  top: 20%;
+}
+.foto-perfil {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .aside .logo a {
   color: var(--text-black-900);
