@@ -659,6 +659,13 @@ h3.hello span {
   font-size: 25px;
   color: var(--skin-color);
 }
+.contact .contact-info-item a {
+  color: var(--text-black-900);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 15px 0 5px;
+}
 .contact .contact-info-item h4 {
   font-size: 18px;
   font-weight: 700;
