@@ -579,7 +579,7 @@ h3.hello span {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .portfolio-info {
-  /* max-width: 500px; */
+  max-width: 500px;
   flex: 1;
 }
 .portfolio-info h3 {
@@ -622,6 +622,7 @@ h3.hello span {
   background-color: var(--primary-color); /* Cor ao passar o mouse */
   transform: scale(1.1); /* Leve zoom no hover */
 }
+
 /* .portfolio-info a {
   display: inline-block;
   margin-right: 10px;
@@ -631,6 +632,7 @@ h3.hello span {
 .portfolio-info a:hover {
   text-decoration: underline;
 } */
+
 /* Contact */
 .contact-title {
   color: var(--skin-color);

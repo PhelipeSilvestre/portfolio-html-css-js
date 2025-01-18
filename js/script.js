@@ -40,3 +40,34 @@ function asideSectionTogglerBtn() {
 }
 
 // Contact Form
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault(); // Evita o recarregamento da página
+
+    const responseMessage = document.getElementById("response-message");
+    responseMessage.style.display = "block";
+    responseMessage.textContent = "Enviando mensagem...";
+
+    const formData = {
+      user_name: document.getElementById("user_name").value,
+      user_email: document.getElementById("user_email").value,
+      subject: document.getElementById("subject").value,
+      message: document.getElementById("message").value,
+    };
+
+    emailjs
+      .send("service_5rvfx7n", "template_mc15zpk", formData)
+      .then((response) => {
+        console.log("Mensagem enviada com sucesso:", response);
+        responseMessage.textContent = "Mensagem enviada com sucesso!";
+        responseMessage.style.color = "green";
+        document.getElementById("contact-form").reset();
+      })
+      .catch((error) => {
+        console.error("Erro ao enviar mensagem:", error);
+        responseMessage.textContent =
+          "Erro ao enviar mensagem. Tente novamente.";
+        responseMessage.style.color = "red";
+      });
+  });
